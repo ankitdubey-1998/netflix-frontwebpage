@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.main{
+    background-image: url("assests/bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px,100vw);
+    height: 70vh;
+    position: relative;
+}
+
+.main .box{
+   height: 70vh;
+   width: 100%;
+   opacity: 0.69;
+   background-color: black;
+   top: 0;
+   position: absolute;
+}
+
+nav{
+    max-width: 60vw;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 62px;
+}
+
+nav img{
+    color: red;
+    width: 114px;
+    position: relative;
+    z-index: 15;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+}
+
+.hero{
+    font-family: "Martel Sans", sans-serif;
+    height: calc(100% - 62px);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    font-family: "Martel Sans", sans-serif;
+    gap: 23px;
+    padding: 0px 30px;
+    
+}
+
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px
+}
+
+.hero> :first-child{
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero> :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero> :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.separation{
+    height: 7px;
+    background-color: rgb(53, 53, 53);
+}
+
+.btn{
+    padding: 3px 8px;
+    font-weight: 400;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    border: 2px solid rgba(163, 162, 162, 0.404);;
+    padding: 5px 16px;
+    cursor: pointer;
+}
+
+.btn-red-sm{
+    padding: 3px 8px;
+    font-weight: 400;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 16px;
+    
+}
+
+.btn-red{
+    padding: 3px 8px;
+    font-weight: 400;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 16px;
+    font-size: 20px;
+}
+
+.main input{
+    padding: 12px 108px 10px 10px;
+    font-size: 14px;
+    border: 2px solid white;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    font-weight: 400;
+}
+
+.btn-red-sm{
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 16px;
+}
+
+
+    
